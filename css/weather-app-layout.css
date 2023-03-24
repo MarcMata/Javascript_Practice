@@ -1,0 +1,47 @@
+.weather-card{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.hero-row {
+    height: 60vh;
+    width: 100%;
+    /*background: red;*/
+}
+
+.four-day-row {
+    height: 20vh;
+    width: 100%;
+    margin-bottom: 10px;
+    /*background-color: green;*/
+}
+.four-day-title {
+    border-top: 3px solid black;
+}
+
+.sidebar {
+    height: 100%;
+    width: 30%;
+    /*background-color: blue;*/
+    flex: none;
+    border-right: 3px solid black;
+}
+.map {
+    height: 100%;
+    width: 60%;
+    /*background: lightblue;*/
+}
+
+.row-wrapper {
+    background-color: saddlebrown;
+    border-radius: 20px;
+}
+
+.container {
+    row-gap: 0;
+}
+
+.page-wrapper {
+    margin: 20px 40px;
+}
