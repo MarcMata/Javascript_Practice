@@ -42,6 +42,6 @@
     row-gap: 0;
 }
 
-.page-wrapper {
-    margin: 20px 40px;
+.app-container {
+    padding: 40px 20px;
 }
