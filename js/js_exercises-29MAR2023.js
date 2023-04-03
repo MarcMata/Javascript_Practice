@@ -50,7 +50,7 @@ const totalCountOfProperties = (arrayOfObjects) => {
         return acc;
     }, {});
 }
-// console.log(totalCountOfProperties(people))
+console.log(totalCountOfProperties(people))
 
 
 // Using object keys
@@ -80,7 +80,11 @@ const specifcKeyExists = (object, key) => key in object;
 
 // Ternary Operations
 // Write a function that takes a number as an argument and returns either "even" or "odd" based on whether the number is even or odd.
+const evenOrOdd = (number) => number % 2 === 0 ? "even" : "odd";
 // Write a function that takes two numbers as arguments and returns the larger number. Use a ternary operator to determine which number is larger.
+const largerNumber = (num1, num2) => num1 > num2 ? `larger number is ${num1}` : `larger number is ${num2}`;
 // Write a function that takes an array of numbers and returns a new array with only the even numbers from the original array.
+const evenNumbersArray = (arrayOfNumbers) => arrayOfNumbers.filter(number => number % 2 === 0);
+console.log(evenNumbersArray(numbers))
 // Write a function that takes a string as an argument and returns "long" if the string has more than 10 characters, "medium" if the string has between 5 and 10 characters, and "short" if the string has fewer than 5 characters. Use a ternary operator to determine the length of the string.
 // Write a function that takes a number as an argument and returns "positive" if the number is positive, "negative" if the number is negative, and "zero" if the number is zero. Use a ternary operator to determine the sign of the number.
